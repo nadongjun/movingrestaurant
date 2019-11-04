@@ -1,0 +1,696 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fdd2ce02b5dab82e13f7c1d537d08cea/multidex-1.0.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/24df29af47e85aae62a16def993797d5/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/47333494c89d05f3cc1927c868159a67/facebook-android-sdk-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9232e734a35be6ebd6d742288a4bb780/facebook-login-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8d848c14588a9f09a954c776a9259207/facebook-share-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:21:1-37:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9312b4499192dc06b5025e38ce0cb877/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a624cea9d7079d7e60ab6cb9a7d361a4/play-services-ads-12.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-core:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/858a8ef4ba1c1cc27857befbf96e26a2/firebase-core-12.0.0/AndroidManifest.xml:2:1-6:12
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8302fe4a6d837ed373ae37ccc479f460/twitter-3.1.1/AndroidManifest.xml:18:1-27:12
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:18:1-37:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/18e38e16310334047eaa7ff74d8a3be2/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-storage:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/85e71a76aba3436477e042c83f677ef8/firebase-storage-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-firestore:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7bc5eeee0f0d63935818c9149d3ef805/firebase-firestore-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/eb25f7715cbf572eda7ad3b2e42cab09/glide-4.9.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:18:1-39:12
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:18:1-35:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8e44f406782b71f98a5db003eb8a2b1d/constraint-layout-1.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/12238152a5697cac5875ac071f03cc33/play-services-auth-api-phone-12.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/bd71c7d77235e06ec067ddb51eb4ccdc/play-services-auth-base-12.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:17:1-54:12
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/538965689ef143ae5f1da09ea28ae50f/play-services-tasks-12.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/f44e3db0572b19c00d71c6a9dce023b0/play-services-gass-12.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/97deb6368e84078af1ca4eeb6984f71f/firebase-storage-common-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2278f91dec37c405adda3aca29d849/play-services-basement-12.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/707e5f1edcb39101ca9a1ae38e13c8e1/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/5e5121fca37764fb6f663fb4049d5d65/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d140aff0ff05060c7075784046b16b06/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/51efef87be85250079c368bd1e5d7c81/customtabs-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/600ad9853c79595129c3641b200c9d8d/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7a39008b96528328478ea09f8f1f29fe/facebook-places-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/5b9f4152ceafe630f5c10d1c3f249927/facebook-applinks-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/1ce4c1ae97588bf0557ae60999416941/facebook-messenger-4.42.0/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:21:1-53:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/c801a53820eea2d00101bc9d18cf9e44/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/395e7f16be0646001d5064615aa99333/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9c729de5c38aa80a1e953632b0da27de/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/041c8a58893deac207166d3c47b22e8c/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/41f87a48b766d596934f967b66dcb99e/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/14e313b2d8834ca6ed90fb951ef7506e/gifdecoder-4.9.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/3ea88e0576c5473089fee7d1874dfa8b/cardview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/673faaf2185522603e54cd59087b294f/firebase-auth-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a65022a7b9b3094ebcac3ee40cdb4276/play-services-ads-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/1799e566cd36d4b23b1c1ede016ce436/firebase-storage-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/3e0e14262cb075a239e34cf660b00a99/firebase-messaging-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/bdebcf2f20c1ca77d2400a726fac7bd7/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/927762a6708a5d9b2a5471511c765f53/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/91fde0b61e7932309505a49f23e32225/play-services-base-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/684b2d0a267de173ca6da0cca1b0cfea/play-services-basement-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-common-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/36ef09e353cd3617a7415f47e9764c72/firebase-common-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/949b9e21479f464c06b5b5ad38e4d244/play-services-tasks-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/c13a5566e12d3967f8b8beab16fe9125/play-services-ads-lite-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/69d7f32fc78690a24d742236a153fc46/play-services-gass-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d8aeeaa00f99a1041ca79b6370d0740f/firebase-analytics-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/2fbcdd6f6701a96abbc4f41655b2334b/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/2b47d6c37c42187f2dcfc1cb7248d421/firebase-storage-common-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/dd0032f63016ff61c51b56d5db9d5588/play-services-auth-api-phone-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d13364ccfbb2355f437a01d87604b2bb/play-services-auth-base-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a3baa2f0b895bb14a28709969bf96632/firebase-iid-license-12.0.0/AndroidManifest.xml:2:1-8:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9287bdea183c103f605451a897da9c36/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/15f344aca36955ac430560cbc188b9f7/firebase-analytics-impl-license-12.0.0/AndroidManifest.xml:2:1-8:12
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+	package
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:7:22-77
+application
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:9:5-58:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/47333494c89d05f3cc1927c868159a67/facebook-android-sdk-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/47333494c89d05f3cc1927c868159a67/facebook-android-sdk-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9232e734a35be6ebd6d742288a4bb780/facebook-login-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9232e734a35be6ebd6d742288a4bb780/facebook-login-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8d848c14588a9f09a954c776a9259207/facebook-share-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8d848c14588a9f09a954c776a9259207/facebook-share-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:28:5-35:19
+MERGED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:22:5-30:19
+MERGED from [com.google.firebase:firebase-core:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/858a8ef4ba1c1cc27857befbf96e26a2/firebase-core-12.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/858a8ef4ba1c1cc27857befbf96e26a2/firebase-core-12.0.0/AndroidManifest.xml:5:5-20
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8302fe4a6d837ed373ae37ccc479f460/twitter-3.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8302fe4a6d837ed373ae37ccc479f460/twitter-3.1.1/AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:27:5-35:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/eb25f7715cbf572eda7ad3b2e42cab09/glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/eb25f7715cbf572eda7ad3b2e42cab09/glide-4.9.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:22:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:27:5-33:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:27:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8e44f406782b71f98a5db003eb8a2b1d/constraint-layout-1.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8e44f406782b71f98a5db003eb8a2b1d/constraint-layout-1.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:27:5-52:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:27:5-38:19
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:34:5-57:19
+MERGED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/538965689ef143ae5f1da09ea28ae50f/play-services-tasks-12.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/538965689ef143ae5f1da09ea28ae50f/play-services-tasks-12.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/f44e3db0572b19c00d71c6a9dce023b0/play-services-gass-12.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/f44e3db0572b19c00d71c6a9dce023b0/play-services-gass-12.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2278f91dec37c405adda3aca29d849/play-services-basement-12.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2278f91dec37c405adda3aca29d849/play-services-basement-12.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7a39008b96528328478ea09f8f1f29fe/facebook-places-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7a39008b96528328478ea09f8f1f29fe/facebook-places-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/5b9f4152ceafe630f5c10d1c3f249927/facebook-applinks-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/5b9f4152ceafe630f5c10d1c3f249927/facebook-applinks-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/1ce4c1ae97588bf0557ae60999416941/facebook-messenger-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/1ce4c1ae97588bf0557ae60999416941/facebook-messenger-4.42.0/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:28:5-51:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/14e313b2d8834ca6ed90fb951ef7506e/gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/14e313b2d8834ca6ed90fb951ef7506e/gifdecoder-4.9.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/673faaf2185522603e54cd59087b294f/firebase-auth-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-auth-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/673faaf2185522603e54cd59087b294f/firebase-auth-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a65022a7b9b3094ebcac3ee40cdb4276/play-services-ads-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-ads-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a65022a7b9b3094ebcac3ee40cdb4276/play-services-ads-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/1799e566cd36d4b23b1c1ede016ce436/firebase-storage-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/1799e566cd36d4b23b1c1ede016ce436/firebase-storage-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/3e0e14262cb075a239e34cf660b00a99/firebase-messaging-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-messaging-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/3e0e14262cb075a239e34cf660b00a99/firebase-messaging-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/91fde0b61e7932309505a49f23e32225/play-services-base-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-base-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/91fde0b61e7932309505a49f23e32225/play-services-base-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/684b2d0a267de173ca6da0cca1b0cfea/play-services-basement-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-basement-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/684b2d0a267de173ca6da0cca1b0cfea/play-services-basement-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-common-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/36ef09e353cd3617a7415f47e9764c72/firebase-common-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-common-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/36ef09e353cd3617a7415f47e9764c72/firebase-common-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/949b9e21479f464c06b5b5ad38e4d244/play-services-tasks-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-tasks-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/949b9e21479f464c06b5b5ad38e4d244/play-services-tasks-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/c13a5566e12d3967f8b8beab16fe9125/play-services-ads-lite-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-ads-lite-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/c13a5566e12d3967f8b8beab16fe9125/play-services-ads-lite-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/69d7f32fc78690a24d742236a153fc46/play-services-gass-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-gass-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/69d7f32fc78690a24d742236a153fc46/play-services-gass-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d8aeeaa00f99a1041ca79b6370d0740f/firebase-analytics-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-analytics-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d8aeeaa00f99a1041ca79b6370d0740f/firebase-analytics-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/2b47d6c37c42187f2dcfc1cb7248d421/firebase-storage-common-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-storage-common-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/2b47d6c37c42187f2dcfc1cb7248d421/firebase-storage-common-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/dd0032f63016ff61c51b56d5db9d5588/play-services-auth-api-phone-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-auth-api-phone-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/dd0032f63016ff61c51b56d5db9d5588/play-services-auth-api-phone-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d13364ccfbb2355f437a01d87604b2bb/play-services-auth-base-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.gms:play-services-auth-base-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d13364ccfbb2355f437a01d87604b2bb/play-services-auth-base-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a3baa2f0b895bb14a28709969bf96632/firebase-iid-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-iid-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a3baa2f0b895bb14a28709969bf96632/firebase-iid-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/15f344aca36955ac430560cbc188b9f7/firebase-analytics-impl-license-12.0.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.firebase:firebase-analytics-impl-license:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/15f344aca36955ac430560cbc188b9f7/firebase-analytics-impl-license-12.0.0/AndroidManifest.xml:5:5-6:19
+	android:supportsRtl
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:13:9-48
+	android:icon
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:11:9-43
+	android:allowBackup
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:16:9-44
+activity#com.company.howl.movingrestaurant.LoginActivity
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:17:19-81
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.company.howl.movingrestaurant.MainActivity
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:24:9-83
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:24:19-80
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:27:9-29:55
+	android:value
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:29:13-52
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:28:13-58
+activity#com.facebook.FacebookActivity
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:31:9-34:48
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:34:13-45
+	android:configChanges
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:33:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:32:13-63
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:32:13-57
+activity#com.facebook.CustomTabActivity
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:35:9-46:20
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:34:9-67
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:34:9-67
+	android:exported
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:36:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:@string/fb_login_protocol_scheme
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:38:13-45:29
+action#android.intent.action.VIEW
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:39:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:41:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:42:27-75
+data
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:44:17-75
+	android:scheme
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:44:23-72
+activity#com.company.howl.movingrestaurant.navigation.AddPhotoActivity
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:47:9-98
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:47:19-95
+activity#com.company.howl.movingrestaurant.navigation.CommentActivity
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:48:9-106
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:48:19-94
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:51:9-53:54
+	android:resource
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:53:13-51
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:52:13-83
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:54:9-56:53
+	android:resource
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:56:13-50
+	android:name
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:55:13-84
+uses-sdk
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fdd2ce02b5dab82e13f7c1d537d08cea/multidex-1.0.2/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fdd2ce02b5dab82e13f7c1d537d08cea/multidex-1.0.2/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/24df29af47e85aae62a16def993797d5/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/24df29af47e85aae62a16def993797d5/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/47333494c89d05f3cc1927c868159a67/facebook-android-sdk-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/47333494c89d05f3cc1927c868159a67/facebook-android-sdk-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9232e734a35be6ebd6d742288a4bb780/facebook-login-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9232e734a35be6ebd6d742288a4bb780/facebook-login-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8d848c14588a9f09a954c776a9259207/facebook-share-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8d848c14588a9f09a954c776a9259207/facebook-share-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9312b4499192dc06b5025e38ce0cb877/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9312b4499192dc06b5025e38ce0cb877/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a624cea9d7079d7e60ab6cb9a7d361a4/play-services-ads-12.0.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a624cea9d7079d7e60ab6cb9a7d361a4/play-services-ads-12.0.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.firebase:firebase-core:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/858a8ef4ba1c1cc27857befbf96e26a2/firebase-core-12.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/858a8ef4ba1c1cc27857befbf96e26a2/firebase-core-12.0.0/AndroidManifest.xml:4:5-43
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8302fe4a6d837ed373ae37ccc479f460/twitter-3.1.1/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8302fe4a6d837ed373ae37ccc479f460/twitter-3.1.1/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:23:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/18e38e16310334047eaa7ff74d8a3be2/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/18e38e16310334047eaa7ff74d8a3be2/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/85e71a76aba3436477e042c83f677ef8/firebase-storage-12.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/85e71a76aba3436477e042c83f677ef8/firebase-storage-12.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7bc5eeee0f0d63935818c9149d3ef805/firebase-firestore-12.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7bc5eeee0f0d63935818c9149d3ef805/firebase-firestore-12.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/eb25f7715cbf572eda7ad3b2e42cab09/glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/eb25f7715cbf572eda7ad3b2e42cab09/glide-4.9.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:23:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8e44f406782b71f98a5db003eb8a2b1d/constraint-layout-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8e44f406782b71f98a5db003eb8a2b1d/constraint-layout-1.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/12238152a5697cac5875ac071f03cc33/play-services-auth-api-phone-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/12238152a5697cac5875ac071f03cc33/play-services-auth-api-phone-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/bd71c7d77235e06ec067ddb51eb4ccdc/play-services-auth-base-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/bd71c7d77235e06ec067ddb51eb4ccdc/play-services-auth-base-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/538965689ef143ae5f1da09ea28ae50f/play-services-tasks-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/538965689ef143ae5f1da09ea28ae50f/play-services-tasks-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/f44e3db0572b19c00d71c6a9dce023b0/play-services-gass-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/f44e3db0572b19c00d71c6a9dce023b0/play-services-gass-12.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/97deb6368e84078af1ca4eeb6984f71f/firebase-storage-common-12.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/97deb6368e84078af1ca4eeb6984f71f/firebase-storage-common-12.0.0/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2278f91dec37c405adda3aca29d849/play-services-basement-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2278f91dec37c405adda3aca29d849/play-services-basement-12.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/707e5f1edcb39101ca9a1ae38e13c8e1/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/707e5f1edcb39101ca9a1ae38e13c8e1/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/5e5121fca37764fb6f663fb4049d5d65/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/5e5121fca37764fb6f663fb4049d5d65/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d140aff0ff05060c7075784046b16b06/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d140aff0ff05060c7075784046b16b06/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/51efef87be85250079c368bd1e5d7c81/customtabs-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/51efef87be85250079c368bd1e5d7c81/customtabs-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/600ad9853c79595129c3641b200c9d8d/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/600ad9853c79595129c3641b200c9d8d/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7a39008b96528328478ea09f8f1f29fe/facebook-places-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7a39008b96528328478ea09f8f1f29fe/facebook-places-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/5b9f4152ceafe630f5c10d1c3f249927/facebook-applinks-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/5b9f4152ceafe630f5c10d1c3f249927/facebook-applinks-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/1ce4c1ae97588bf0557ae60999416941/facebook-messenger-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/1ce4c1ae97588bf0557ae60999416941/facebook-messenger-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/c801a53820eea2d00101bc9d18cf9e44/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/c801a53820eea2d00101bc9d18cf9e44/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/395e7f16be0646001d5064615aa99333/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/395e7f16be0646001d5064615aa99333/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9c729de5c38aa80a1e953632b0da27de/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9c729de5c38aa80a1e953632b0da27de/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/041c8a58893deac207166d3c47b22e8c/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/041c8a58893deac207166d3c47b22e8c/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/41f87a48b766d596934f967b66dcb99e/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/41f87a48b766d596934f967b66dcb99e/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/14e313b2d8834ca6ed90fb951ef7506e/gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/14e313b2d8834ca6ed90fb951ef7506e/gifdecoder-4.9.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/3ea88e0576c5473089fee7d1874dfa8b/cardview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/3ea88e0576c5473089fee7d1874dfa8b/cardview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/bdebcf2f20c1ca77d2400a726fac7bd7/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/bdebcf2f20c1ca77d2400a726fac7bd7/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/927762a6708a5d9b2a5471511c765f53/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/927762a6708a5d9b2a5471511c765f53/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/2fbcdd6f6701a96abbc4f41655b2334b/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/2fbcdd6f6701a96abbc4f41655b2334b/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9287bdea183c103f605451a897da9c36/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9287bdea183c103f605451a897da9c36/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.google.android.gms:play-services-ads:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a624cea9d7079d7e60ab6cb9a7d361a4/play-services-ads-12.0.0/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/ed402644fac4500186def8a26a8b66d3/facebook-common-4.42.0/AndroidManifest.xml:33:19-68
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b8feee65637c7d2410fa82076e210ad4/firebase-auth-12.0.0/AndroidManifest.xml:24:13-85
+activity#com.twitter.sdk.android.tweetui.PlayerActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:28:9-31:49
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:29:13-74
+activity#com.twitter.sdk.android.tweetui.GalleryActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:32:9-34:49
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:34:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/23061fe7844f61048d219dd3f3bee695/tweet-ui-3.1.1/AndroidManifest.xml:33:13-75
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fe63f98d4442d6688f86f6e3834ad6fd/play-services-auth-12.0.0/AndroidManifest.xml:34:13-89
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:29:13-82
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:31:13-33:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:31:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:32:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/8a1ba805f7bc8a9112ae93381ba6790c/firebase-messaging-12.0.0/AndroidManifest.xml:32:25-75
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:28:9-31:71
+	android:windowSoftInputMode
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:29:13-82
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:33:9-36:40
+	android:enabled
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/d9ea715415b167cdb6c2d93c9aeb9d64/tweet-composer-3.1.1/AndroidManifest.xml:34:13-84
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/28b5f8e2f8e423c15bd93d581877ef27/twitter-core-3.1.1/AndroidManifest.xml:29:13-79
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/556f941ff38991b41d3f3435ada53876/play-services-base-12.0.0/AndroidManifest.xml:24:13-79
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:24:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:25:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:28:9-32:20
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:28:9-32:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:30:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:29:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:33:9-41:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:36:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:37:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:34:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:38:13-40:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:39:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:43:9-46:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:34:9-37:40
+MERGED from [com.google.firebase:firebase-analytics-impl:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2c283f64e8d822f766052443058138/firebase-analytics-impl-12.0.0/AndroidManifest.xml:34:9-37:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:45:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:44:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:47:9-51:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:49:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:50:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/9047cb76235d01de02a5b3bb49e927eb/firebase-analytics-12.0.0/AndroidManifest.xml:48:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:29:9-63
+permission#com.company.howl.movingrestaurant.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:32:22-76
+uses-permission#com.company.howl.movingrestaurant.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:32:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:35:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:38:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:36:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:39:13-43:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.company.howl.movingrestaurant
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:39:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:40:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:40:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:42:27-58
+category#com.company.howl.movingrestaurant
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:42:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:42:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/b65be0b338a002774734696fcc1ae14f/firebase-iid-12.0.0/AndroidManifest.xml:54:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/7fed8b8465d51d69587ad8183b954c98/firebase-common-12.0.0/AndroidManifest.xml:9:13-77
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:29:9-33:64
+	android:exported
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:31:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:33:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/a1558c555bca982f11acc6f2d2e5161e/play-services-ads-lite-12.0.0/AndroidManifest.xml:30:13-65
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2278f91dec37c405adda3aca29d849/play-services-basement-12.0.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2278f91dec37c405adda3aca29d849/play-services-basement-12.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:12.0.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/fa2278f91dec37c405adda3aca29d849/play-services-basement-12.0.0/AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.42.0] /Users/nadongjun/.gradle/caches/transforms-2/files-2.1/e1e94b0780e0336c336757e2733795d6/facebook-core-4.42.0/AndroidManifest.xml:48:25-92
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/nadongjun/Desktop/movingrestaurant/app/src/main/AndroidManifest.xml:2:1-59:12 reason: com.google.android.gms.license has a targetSdkVersion < 4
